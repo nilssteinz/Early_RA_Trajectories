@@ -1,0 +1,23 @@
+Standard Operating Procedure for Post-hoc Analysis of Trajectory Data
+Overview
+This procedure outlines the post-hoc analysis workflow for trajectory data, focusing on validation, statistical assessment, and visualization of trajectory patterns identified in earlier pipeline stages.
+Procedure
+
+DMARD Trajectory Survival Analysis (dmard_survival.ipynb)
+
+Evaluate how identified trajectories correlate with DMARD treatment outcomes
+Perform survival analysis stratified by trajectory groups
+Document clinical significance of trajectory findings
+
+
+Trajectory Visualization and Reporting (tables_and_figures.ipynb)
+
+Generate publication-ready visualizations of key trajectories
+Create comparison tables showing trajectory characteristics
+Format trajectory statistics for scientific presentation
+Develop visual representations of trajectory-outcome relationships
+Structure findings to communicate trajectory clinical relevance
+
+
+
+This post-hoc analysis workflow validates the clinical significance of previously identified trajectories, assesses their predictive value for treatment outcomes, and prepares comprehensive visualizations for scientific communication of trajectory patterns and their implications.

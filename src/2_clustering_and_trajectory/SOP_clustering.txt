@@ -1,0 +1,49 @@
+Standard Operating Procedure for Clustering and Trajectory Analysis
+Overview
+This procedure describes the clustering and trajectory analysis component (2_clustering_and_trajectory) of the data pipeline, detailing the sequential approach to defining clusters and extracting trajectories using multiple methodologies.
+Procedure
+
+Initial Clustering with K Definition (a1_clustering_defining_Knn.ipynb)
+
+Determine optimal number of connection for the leiden algorithm (K) using statistical methods
+Evaluate cluster quality and stability
+
+
+
+Leiden Algorithm Clustering (a2_Leiden_clustering.ipynb)
+
+Apply Leiden community detection algorithm to the preprocessed data using the K from step 1
+Generate community structures
+
+
+Trajectory Definition with Knn Clusters (a3_clustering_defining_Knn_trajectories.ipynb)
+
+Determine optimal number of connection for the leiden algorithm (K) using statistical methods
+Evaluate trajectory quality and stability
+
+
+
+
+Leiden-based Trajectory Analysis (a4_Leiden_trajectories.ipynb)
+
+Extract trajectories from Leiden community structures
+Apply trajectory algorithm
+Quantify trajectory characteristics
+Compare with K-based trajectory outcomes
+
+
+TACERA Clustering Implementation (b1_TACERA_clustering.ipynb)
+
+Apply clustering based on findings of leiden on the TACERA dataset
+Evaluate dynamic cluster formation
+
+
+
+TACERA Trajectory Extraction (b2_TACERA_trajectories.ipynb)
+
+Generate trajectories from TACERA clusters
+Analyze temporal evolution of trajectories
+Calculate trajectory metrics specific to time-aware clusters
+
+
+This procedure should be followed sequentially as each notebook builds upon the results of previous analyses. 

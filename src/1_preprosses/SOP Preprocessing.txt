@@ -1,0 +1,34 @@
+Standard Operating Procedure for Data Preprocessing
+Overview
+This procedure outlines the initial preprocessing steps of the data pipeline, focusing on mannequin data creation, data merging, and specialized preprocessing for the TACERA reproduction dataset.
+Procedure
+
+Mannequin Data Creation (1.Create_mannequinpe_file.ipynb)
+
+Generate template data structures for standard analysis
+Create standardized data formats for subsequent processing
+Establish baseline reference points
+Validate mannequin file integrity
+
+
+Data Integration (2.Merging_data_publish.ipynb)
+
+Import and consolidate data from multiple sources
+Resolve inconsistencies in data formats
+Validate merged dataset integrity
+Apply initial cleaning and standardization
+Prepare unified dataset for analytical pipeline
+
+
+TACERA Dataset Preprocessing (TACERA_preprocess.ipynb)
+
+Import and prepare the separate TACERA reproduction dataset
+Apply dataset-specific cleaning and formatting
+Standardize TACERA data to match pipeline requirements
+Extract relevant features from the TACERA dataset
+Prepare TACERA data for comparison with primary dataset
+Validate preprocessed reproduction data compatibility
+
+
+
+This preprocessing sequence establishes both the primary analytical dataset and prepares the separate TACERA reproduction dataset for comparative analysis. The TACERA preprocessing creates a parallel data stream that will be used for validation and comparison purposes later in the analysis pipeline.

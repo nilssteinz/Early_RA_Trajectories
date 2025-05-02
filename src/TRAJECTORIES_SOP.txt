@@ -1,0 +1,47 @@
+Standard Operating Procedure for Data Analysis Pipeline
+Overview
+This procedure outlines the step-by-step workflow for processing and analyzing trajectory data, following a sequential approach from preprocessing through post-hoc analysis, with supporting utilities.
+Procedure
+
+Data Preprocessing (1_preprocess)
+
+Raw data is imported and cleaned
+Formatting standardization is applied
+Initial filtering of outliers is performed
+Data is prepared for subsequent analysis
+
+
+Clustering and Trajectory Analysis (2_clustering_and_trajectory)
+
+Cleaned data is segmented into clusters
+Initial trajectory identification is performed
+Pattern recognition algorithms are applied to identify movement patterns
+
+
+Trajectory Prediction (3_trajectory_prediction)
+
+Predictive models are applied to clustered trajectory data
+Future positions/movements are forecasted
+Prediction accuracy is evaluated
+
+
+Post-hoc Analysis (4_Post_hoc_analysis)
+
+post-hoc data description and table creation
+Visualization of results is generated
+Insights and recommendations are formulated
+
+
+
+Supporting Components
+
+Utilities (utils)
+
+Common functions used across multiple pipeline stages
+Helper methods for data transformation
+Shared configuration settings
+Logging and error handling mechanisms
+
+
+
+This SOP should be followed sequentially, with each step building on the output of the previous step. The utilities module provides support throughout the entire process.
