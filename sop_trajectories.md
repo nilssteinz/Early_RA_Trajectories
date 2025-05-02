@@ -28,11 +28,11 @@ Applicable  in data preprocessing, clustering, and analysis related to early RA 
 
 ## 4. Procedure
 
-* **follow each directory with the correct order [1->2->3->...]
+* **follow each directory with the correct order** [1->2->3->...]
 
 ## 8. References
 
-* Steinz, N., et al. (2025). *Time-independent disease state identification defines distinct trajectories determined by localized versus systemic inflammation in early RA patients.* Journal Name, Volume(Issue), Page numbers.
+* coming soon
 
 ## 9. Revision History
 
