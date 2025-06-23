@@ -40,7 +40,9 @@ To utilize the code:
 
 If you use this code or find it helpful, please cite the associated paper:
 
-*comming soon*
+Nils Steinz, Tjardo D. Maarseveen, Erik B. van den Akker, Andrew P. Cope, John D. Isaacs, Aaron R. Winkler, Tom W. J. Huizinga, Yann Abraham, Rachel Knevel,
+Time-independent disease state identification defines distinct trajectories determined by localised vs systemic inflammation in patients with early rheumatoid arthritis,
+Annals of the Rheumatic Diseases, 2025, ISSN 0003-4967, https://doi.org/10.1016/j.ard.2025.04.011.
 
 ## License
 
